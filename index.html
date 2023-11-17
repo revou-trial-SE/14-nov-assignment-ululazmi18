@@ -14,6 +14,22 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
+    .white-to-r {
+      background: rgb(255, 255, 255);
+      background: -moz-linear-gradient(87deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      background: -webkit-linear-gradient(87deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      background: linear-gradient(87deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000493", GradientType=1);
+    }
+
+    .white-to-t {
+      background: rgb(255, 255, 255);
+      background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 4, 147, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000493", GradientType=1);
+    }
   </style>
 </head>
 
@@ -32,10 +48,10 @@
             <a class="nav-link" href="#">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Favorit">Film</a>
+            <a class="nav-link" href="#daftar-film">Film</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontak</a>
+            <a class="nav-link" href="#kontak">Kontak</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -51,7 +67,7 @@
     <div class="container">
       <h1 class="display-3 fw-bold animate__animated animate__zoomIn color-bl-or">Selamat Datang di Web profil ku</h1>
       <p class="lead fw-bold">Ini koleksi film kesukaan ku.</p>
-      <a href="#Favorit" class="btn btn-primary btn-lg animate__animated animate__slideInUp">Jelajahi</a>
+      <a href="#daftar-film" class="btn btn-primary btn-lg animate__animated animate__slideInUp">Jelajahi</a>
     </div>
   </div>
 
@@ -161,11 +177,11 @@
   </div>
 
   <div class="container-fluid text-center">
-    <h3 id="daftar-film" class="m-3 text-white fw-semibold">Favorit</h3>
+    <h3 id="daftar-film" class="m-3 text-white fw-semibold">Daftar Film</h3>
 
     <div class="row justify-content-center text-truncate">
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/10/08/af6a4400-2804-11ec-8ee8-f97cf65b13a0_webp_640.png"
           class="card-img-top w-100" alt="THE RAID">
@@ -174,7 +190,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <a class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top"
           title="Lanjut ke link eksternal" href="https://trueid.id/movie/0E8eaXd1BZKz/teror-desa-korban-mutilasi/">
           <img
@@ -186,7 +202,7 @@
         </a>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/10/08/7acab280-2803-11ec-9b24-1b97f1426387_webp_640.png"
           class="card-img-top" alt="THE RAID 2">
@@ -195,7 +211,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/05/20/5810e290-b93c-11eb-aab2-ab98128122f2_640.png"
           class="card-img-top" alt="PULANG KAMIS">
@@ -204,7 +220,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/01/26/bf483320-5fa3-11eb-ba6e-937c1d358bdd_640.png"
           class="card-img-top" alt="GHOST DIARY">
@@ -213,7 +229,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <a class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top"
           title="Lanjut ke link eksternal" href="https://trueid.id/movie/bXxKpVpr3Y7L/bangkit/">
           <img
@@ -225,7 +241,7 @@
         </a>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/05/21/921ea1e0-ba16-11eb-9fb1-432dec7fe989_640.png"
           class="card-img-top" alt="KOIN">
@@ -234,7 +250,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/05/25/e939b5e0-bd32-11eb-8220-9f8ed436e416_640.png"
           class="card-img-top" alt="JAHANNAM">
@@ -243,7 +259,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <img
           src="https://cms.dmpcdn.com/cdn-cgi/image/width=1920,w=147,h=221,fit=cover,q=85,f=auto/https://cms.dmpcdn.com/movie/2021/05/20/4eb83540-b941-11eb-aab2-ab98128122f2_640.png"
           class="card-img-top" alt="FATAMORGANA">
@@ -252,7 +268,7 @@
         </div>
       </div>
 
-      <div class="card m-1 col-4 col-lg-1 col-md-2">
+      <div class="card m-1 col-4 col-lg-1 col-md-2 white-to-t">
         <a class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top"
           title="Lanjut ke link eksternal" href="https://trueid.id/movie/WwEgqxyZAYWL/semesta/">
           <img
@@ -284,24 +300,24 @@
           </div>
         </div>
 
-        <div class="card col">
-          <div class="card-header">
+        <div class="card col white-to-r">
+          <div class="card-header fw-bold bg-transparent">
             Data Pribadi
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+            <li class="list-group-item fw-bold bg-transparent">
               <pre class="m-0">Tanggal Lahir : Subang, 18 April 1997</pre>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item fw-bold bg-transparent">
               <pre class="m-0">Alamat        : Tanjungsari Timur, Cikaum, Subang</pre>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item fw-bold bg-transparent">
               <pre class="m-0">Jenis Kelamin : laki-laki</pre>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item fw-bold bg-transparent">
               <pre class="m-0">Agama         : Islam</pre>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item fw-bold bg-transparent">
             </li>
           </ul>
         </div>
@@ -313,7 +329,7 @@
     <div class="container text-center">
       <div class="footer-item">
         <p class="footer-text mb-0">Supported by RevoU</p>
-        <p class="footer-text mb-0">Created by ulul.azmi.ulaz@gmail.com &copy; 2023</p>
+        <p id="kontak" class="footer-text mb-0">Created by ulul.azmi.ulaz@gmail.com &copy; 2023</p>
       </div>
     </div>
   </footer>
